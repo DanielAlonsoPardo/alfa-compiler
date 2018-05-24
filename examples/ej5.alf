@@ -1,0 +1,33 @@
+<programa>
+  <main>
+    <variables>
+      <lista name=x></lista>
+      <lista name=y></lista>
+      <int name=veces>20</int>
+    </variables>
+
+
+
+    <repeat until=(veces==0)>
+      veces=veces-1;
+      insert_back(x,veces*10);
+    </repeat>
+
+
+    clonar x en y;
+
+    <if condition=(!is_empty(x))>
+      <repeat until=(is_empty(x))>
+	printf(extraccion_final(x));
+      </repeat>
+    </if>
+
+
+    <if condition=(!is_empty(y))>
+      <repeat until=(is_empty(y))>
+	printf(extraccion_final(y));
+      </repeat>
+    </if>
+
+  </main>
+</programa>

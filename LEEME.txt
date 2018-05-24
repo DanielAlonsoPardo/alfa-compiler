@@ -1,0 +1,10 @@
+Este lenguaje alfa NO tiene:
+variables de tipo estructurado con tamaño limitado (afecta al ej1.alf y ej5.alf dado que sí se puede clonar una lista pequeña a otra grande)
+variables de tipo estructurado con un tipo base específico (todas las listas son del mismo tipo, aceptan únicamente ints)(afecta al ejercicio 2 y 4)
+
+
+glibc-devel.i686
+libgcc.i686
+flex
+bison
+glibc-static

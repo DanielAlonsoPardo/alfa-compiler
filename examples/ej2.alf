@@ -1,0 +1,27 @@
+<programa>
+  <main>
+    <variables>
+      <lista name=x></lista>
+      <lista name=y></lista>
+    </variables>
+
+    insert_back(x,1);
+    insert_back(x,0);
+
+    clonar x en y;
+
+    <if condition=(!is_empty(x))>
+      <repeat until=(is_empty(x))>
+	printf(extraccion_final(x));
+      </repeat>
+    </if>
+
+
+    <if condition=(!is_empty(y))>
+      <repeat until=(is_empty(y))>
+	printf(extraccion_final(y));
+      </repeat>
+    </if>
+
+  </main>
+</programa>

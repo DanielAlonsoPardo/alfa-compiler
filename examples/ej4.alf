@@ -1,0 +1,11 @@
+<programa>
+  <main>
+    <variables>
+      <lista name=x></lista>
+      <int name=y>1</int>
+    </variables>
+
+    clonar x en y;
+
+  </main>
+</programa>
